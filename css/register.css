@@ -1,0 +1,62 @@
+body{
+    /*background: url("../img/bg.jpg") repeat;*/
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+/*#bg{*/
+    /*margin-top: 140px;*/
+    /*background: url("../img/ibad1.png");*/
+    /*padding: 40px;*/
+    /*-webkit-border-bottom-left-radius: 15px;*/
+    /*-webkit-border-bottom-right-radius: 15px;*/
+    /*-webkit-border-top-left-radius: 15px;*/
+    /*-webkit-border-top-right-radius: 15px;*/
+    /*margin-right: 106px;*/
+    /*text-shadow: 4px 5px 7px #020202;*/
+    /*z-index: 1;*/
+/*}*/
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+}
+#ibad{
+    position: fixed;
+    vertical-align: middle;
+    bottom: 0;
+    margin-left: -304px;
+    height: 750px;
+}
+#social{
+    position: fixed;
+    bottom: 0;
+}
+.fa{
+    font-size: 82px;
+}
+.golgol {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    -webkit-transition:  -webkit-transform 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: transform 0.5s;
+}
+
+.golgol:hover {
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+}
